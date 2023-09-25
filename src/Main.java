@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Country country = new Country("Gana");
+        Country country = new Country("Morocco");
         country.setPopulation(32763726);
         country.setArea(329758);
-        country.setCapital("Akkra");
+        country.setCapital("Rabat");
         country.setHasSeaAccess(true);
 
         System.out.println("Country: " + country.getName());
