@@ -9,9 +9,9 @@ public class Main {
         System.out.println("Country: " + country.getName());
         System.out.println("Capital of Country: " + country.getCapital());
 
-        FootballTeam footballTeam = new FootballTeam("Spartak");
+        FootballTeam footballTeam = new FootballTeam("Dynamo");
         footballTeam.setCountry("Russia");
-        footballTeam.setPlace(3);
+        footballTeam.setPlace(8);
 
         System.out.println("Name of Team: " + footballTeam.getName());
         System.out.println("Coutry of Team: " + footballTeam.getCountry());
