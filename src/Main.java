@@ -17,6 +17,10 @@ public class Main {
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(12);
 
+        FootballTeam footballTeam2 = new FootballTeam("Baltika");
+        footballTeam.setCountry("Russia");
+        footballTeam.setPlace(16);
+
 
         System.out.println("Name of Team: " + footballTeam1.getName());
         System.out.println("Coutry of Team: " + footballTeam1.getCountry());
