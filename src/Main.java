@@ -13,9 +13,14 @@ public class Main {
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(8);
 
-        System.out.println("Name of Team: " + footballTeam.getName());
-        System.out.println("Coutry of Team: " + footballTeam.getCountry());
-        System.out.println("Place of Championship: " + footballTeam.getPlace());
+        FootballTeam footballTeam1 = new FootballTeam("Achmat");
+        footballTeam.setCountry("Russia");
+        footballTeam.setPlace(12);
+
+
+        System.out.println("Name of Team: " + footballTeam1.getName());
+        System.out.println("Coutry of Team: " + footballTeam1.getCountry());
+        System.out.println("Place of Championship: " + footballTeam1.getPlace());
 
         Student student = new Student("Sergey", 47);
         System.out.println("Name of student " + student.name() + " his age is " + student.age());
