@@ -9,15 +9,15 @@ public class Main {
         System.out.println("Country: " + country.getName());
         System.out.println("Capital of Country: " + country.getCapital());
 
-        FootballTeam footballTeam = new FootballTeam("Dynamo");
-        footballTeam.setCountry("Russia");
+        FootballTeam footballTeam = new FootballTeam("Dynamo not Spartak");
+        footballTeam.setCountry("Russia is my love");
         footballTeam.setPlace(8);
 
         FootballTeam footballTeam1 = new FootballTeam("Achmat is a good Team");
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(12);
 
-        FootballTeam footballTeam2 = new FootballTeam("Baltika");
+        FootballTeam footballTeam2 = new FootballTeam("Baltika team is good");
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(16);
 
