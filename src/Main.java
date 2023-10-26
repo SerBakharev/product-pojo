@@ -26,6 +26,8 @@ public class Main {
         System.out.println("Coutry of Team: " + footballTeam1.getCountry());
         System.out.println("Place of Championship: " + footballTeam1.getPlace());
 
+        System.out.println("и снова русский текст по поводу откладывания изменений");
+
         Student student = new Student("Sergey", 47);
         System.out.println("Name of student " + student.name() + " his age is " + student.age());
 
