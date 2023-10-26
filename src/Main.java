@@ -13,7 +13,7 @@ public class Main {
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(8);
 
-        FootballTeam footballTeam1 = new FootballTeam("Achmat");
+        FootballTeam footballTeam1 = new FootballTeam("Achmat is a good Team");
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(12);
 
