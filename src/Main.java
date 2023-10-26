@@ -21,6 +21,8 @@ public class Main {
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(16);
 
+        System.out.println("это просто проверка откладывания изменений");
+
 
         System.out.println("Name of Team: " + footballTeam1.getName());
         System.out.println("Coutry of Team: " + footballTeam1.getCountry());
