@@ -13,9 +13,22 @@ public class Main {
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(3);
 
+<<<<<<< Updated upstream
         System.out.println("Name of Team: " + footballTeam.getName());
         System.out.println("Coutry of Team: " + footballTeam.getCountry());
         System.out.println("Place of Championship: " + footballTeam.getPlace());
+=======
+        FootballTeam footballTeam2 = new FootballTeam("Baltika team is good");
+        footballTeam.setCountry("Russia");
+        footballTeam.setPlace(16);
+
+        System.out.println("это просто проверка откладывания изменений");
+
+
+        
+
+        System.out.println("и снова русский текст по поводу откладывания изменений");
+>>>>>>> Stashed changes
 
         Student student = new Student("Sergey", 47);
         System.out.println("Name of student " + student.name() + " his age is " + student.age());
