@@ -13,11 +13,7 @@ public class Main {
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(3);
 
-<<<<<<< HEAD
         FootballTeam footballTeam15 = new FootballTeam("Zenituschka");
-=======
-        FootballTeam footballTeam15 = new FootballTeam("Zenituschka");
->>>>>>> branch-for-merging
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(15);
 
