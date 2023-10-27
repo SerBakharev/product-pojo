@@ -13,7 +13,7 @@ public class Main {
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(3);
 
-        FootballTeam footballTeam15 = new FootballTeam("Zenit");
+        FootballTeam footballTeam15 = new FootballTeam("Zenituschka");
         footballTeam.setCountry("Russia");
         footballTeam.setPlace(15);
 
